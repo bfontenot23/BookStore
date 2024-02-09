@@ -34,6 +34,8 @@ public class Publication implements Comparable<Publication>{
         return String.format("%s, %s.",this.title,this.genre);
     }
 
+
+    //Publication o is the other publication being compared.
     @Override
     public int compareTo(Publication o) {
         if(this.genre.compareTo(o.getGenre())==0) return this.title.compareTo(o.getTitle());
