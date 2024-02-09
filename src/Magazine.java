@@ -2,9 +2,9 @@ public class Magazine extends Publication{
 
     private String publisher;
 
-    public Magazine(String publisher, String genre, String title)
+    public Magazine(String publisher, String title, String genre)
     {
-        super(genre, title);
+        super(title, genre);
         this.publisher = publisher;
     }
 

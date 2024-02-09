@@ -2,9 +2,9 @@ public class Book extends Publication{
 
     private String author;
 
-    public Book(String author, String genre, String title)
+    public Book(String author, String title, String genre)
     {
-        super(genre, title);
+        super(title, genre);
         this.author = author;
     }
 
